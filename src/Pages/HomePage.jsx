@@ -11,9 +11,9 @@ import StatsSection from "../Components/StatsSection";
 import SubscribeSection from "../Components/SubscribeSection";
 const HomePage = () => {
   return (
-    <div className="min-w-full bg-red-500">
+    <div className="min-w-full ">
       <Header />
-      <main className="container max-w-full mx-auto py-28 bg-[#E3EDF8]">
+      <main className=" max-w-full mx-auto py-28 bg-[#E3EDF8]  ">
         <BusinessGrow/>
         <StatsSection />
        <CreativeSolution/>

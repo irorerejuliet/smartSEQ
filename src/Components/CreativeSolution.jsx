@@ -2,7 +2,7 @@ import React from 'react'
 
 const CreativeSolution = () => {
   return (
-    <div className="flex items-center justify-center gap-8 my-28">
+    <div className="flex items-center flex-col md:flex-row justify-center gap-8 my-28">
       <div>
         <p className="text-sm text-primary font-semibold">CREATIVE SOLUTION</p>
         <h2 className="text-[3.375rem] text-primary font-bold font-quickSand w-[555px]">

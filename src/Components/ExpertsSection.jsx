@@ -13,7 +13,7 @@ const ExpertsSection = () => {
   };
 
   return (
-    <div className="w-full max-w-[1000px] mx-auto px-4">
+    <div className=" max-w-[1000px] w-[80%] mx-auto px-4 ">
       <Slider {...settings}>
         {ExpertsData.map(({ id, image, description, name, title }) => (
           <div key={id} className="text-center m-auto w-[903px]">
