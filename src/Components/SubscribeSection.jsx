@@ -9,12 +9,12 @@ const SubscribeSection = () => {
         </p>
    
       <div>
-        <div className="flex items-center gap-3 border-red-400 border justify-center flex-row w-full ">
+        <div className="flex items-center gap-3  justify-center flex-row w-full ">
           
            <input
           type="text"
           placeholder="Enter Your Email Address"
-          className="py-3 px-6  rounded-[40px] text-left w-full"
+          className="py-3 px-6  rounded-[40px] text-left w-[500px]"
         />
         <button className="bg-[#4703FF]  font-medium py-3 px-6 rounded-[30px] md:ml-3 flex-row items-center flex gap-2  md:mt-0 ">
           <PiTelegramLogoBold />

@@ -16,7 +16,7 @@ const ExpertsSection = () => {
     <div className=" max-w-[1000px] w-[80%] mx-auto px-4 ">
       <Slider {...settings}>
         {ExpertsData.map(({ id, image, description, name, title }) => (
-          <div key={id} className="text-center m-auto w-[903px]">
+          <div key={id} className="text-center m-auto md:w-[903px] w-[320px]">
             <img
               src={image}
               alt={name}

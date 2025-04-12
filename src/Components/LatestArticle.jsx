@@ -15,7 +15,7 @@ const LatestArticle = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          
         },
       },
       {
@@ -48,6 +48,7 @@ const LatestArticle = () => {
                   className=" object-cover"
                 />
                 <div className="p-4">
+                  <img src="" alt="" />
                   <h3 className="text-lg font-semibold text-primary">
                     {article.title}
                   </h3>

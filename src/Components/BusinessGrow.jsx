@@ -2,20 +2,20 @@ import React from 'react'
 
 const BusinessGrow = () => {
   return (
-    <div className="md:flex flex-col  items-center justify-center gap-28  ">
-      <div className="relative w-[660px]  h-[400px]">
+    <div className="grid md:grid-cols-2 grid-cols-1  items-center w-[1489px] mx-auto  gap-10  md:mt-0 mt-28">
+      <div className="relative mr-10">
         <img
           src="/images/creativitAgency1.jpeg"
           alt="creativityAgency1"
-          className="absolute top-0 md:left-0 left-10  rounded-xl shadow-md z-10 "
+          className="absolute -top-48 md:left-0 left-10  rounded-xl shadow-md z-10  md:w-[460px] w-[207px]"
         />
         <img
           src="/images/CreativitAgency2.jpeg"
           alt="creativitagency2"
-          className="absolute top-[30%] md:left-44 left-[40%] md:w-[460px] w-[207px]  rounded-xl shadow-lg z-20"
+          className="absolute md:top-[30%] -top-[120px] md:left-44 left-[9%] md:w-[460px] w-[207px]  rounded-xl shadow-lg z-20"
         />
       </div>
-      <div className="md:mt-44 md:px-0 px-3">
+      <div className="md:mt-44 md:px-0 px-3 md:py-0 py-20">
         <p className="text-sm text-primary font-semibold">CREATIVE AGENCY</p>
         <h2 className="md:text-[3.375rem] text-[] text-primary font-bold font-quickSand md:w-[555px] w-[350px] ">
           WE HELP YOUR BUSINESS GROW

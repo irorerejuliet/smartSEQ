@@ -1,15 +1,15 @@
-import React from 'react'
+
 
 const CreativeSolution = () => {
   return (
-    <div className="flex items-center flex-col md:flex-row justify-center gap-8 my-28">
+    <div className="md:flex items-center flex-col md:flex-row justify-center gap-8 my-28 md:px-0 px-2">
       <div>
         <p className="text-sm text-primary font-semibold">CREATIVE SOLUTION</p>
-        <h2 className="text-[3.375rem] text-primary font-bold font-quickSand w-[555px]">
+        <h2 className="md:text-[3.375rem] text-[1.625rem] text-primary font-bold font-quickSand md:w-[555px]">
           We make unique & memorable brands
         </h2>
       </div>
-      <div className="text-secondary font-normal font-dmSans w-[534px] py-6 space-y-4">
+      <div className="text-secondary font-normal font-dmSans md:w-[534px] w-[350px] py-6 space-y-4">
         <p>
           At vero eos et accusamus et iusto odio dignissimos ducimus qui
           blanditiis praesentium voluptatum deleniti atque lorem in voluptate
@@ -20,9 +20,12 @@ const CreativeSolution = () => {
           blanditiis praesentium voluptatum deleniti atque lorem in voluptate
           velit iusto odio dignissimos duci esse.
         </p>
-        <p className="text-lg text-primary font-semibold border border-b-primary">
-          Read More
-        </p>
+        <div className="relative h-fit w-fit md:px-0 px-2">
+          <p className="text-lg text-primary font-semibold relative ">
+            Read More
+            <span className="absolute -bottom-2 -left-2 h-1 -right-2 origin-left rounded-full transition-transform duration-300 ease-out bg-primary"></span>
+          </p>
+        </div>
       </div>
     </div>
   );
